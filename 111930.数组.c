@@ -1,8 +1,9 @@
 # s1111
+
 #include<stdio.h>
 void main(){
-int a;
-for(a=2020;a<=2023;a++){
-printf("%d\n",a);
-}
+	int arr[4]={2020,2021,2022,2022};
+    int a;
+	for(a=0;a<4;a++){
+		printf("%d\n",arr[a]);}
 }
