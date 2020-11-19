@@ -3,10 +3,10 @@
 void main(){
 int b;
 scanf("%d",&b);
-if( b<=0){
+if( b==0){
 printf("女\n");
 }
-else if( b<=1){
+else if( b==1){
 printf("男\n");
 }
 else{
