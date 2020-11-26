@@ -9,5 +9,4 @@ if(a%2==1)
 printf("%d\n",a);
 }
 return 0;
-
 }
