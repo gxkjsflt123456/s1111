@@ -7,7 +7,7 @@ scanf("%d",&a);
 b=a/3600;
 c=(a%3600)/60;
 d=a-3600*b-60*c;
-printf("%d时：",b);
-printf("%d分：",c);
-printf("%d秒",d);
+printf("%.2d时：",b);
+printf("%.2d分：",c);
+printf("%.2d秒",d);
 }
