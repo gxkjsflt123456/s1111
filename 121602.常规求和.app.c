@@ -1,9 +1,12 @@
 #include<stdio.h>
-void main(){
-int x;
+int main(){
+int x=1;
 int a;
-for(a=0;;a++){
-	for(x=1;;x++){
-	printf("%d ",x+a);
-}}
+int n;
+scanf("%d",&n);
+for(a=0;a<n;a++){
+	x=x+n;
+}	
+printf("%d ",x);
+return 0;
 }
